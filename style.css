@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0px;
+    align-items: left;
+    border: 0px;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(70, 70, 70);
+    display: table;
+    width: 100%;
+    padding: 10px 0;
+    }
+footer{
+    display: flexbox;
+}
+
+#botonessuperiores{
+    float: right;
+}
+.logo div{
+    float: left;
+    display: inline-block;
+}
+#logoimagen{
+    padding-left: 10px;
+}
+#logotexto{
+    /* color: rgb(0, 255, 128); */
+    /* color: #13FB21; */
+    color: springgreen;
+    font-size: 80px;
+    border:rgba(0, 0, 0, 0) solid 10px;
+    margin-top: 5px;
+}
+
+.header{
+    border: 0px solid black;
+}
+.botones_del_header{
+    font-size: 1.5rem;
+    border: rgb(229, 233, 255) 2px solid;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 0;
+    margin-bottom: 0.3rem;
+    background-color: rgb(229, 233, 255);
+    text-decoration: none;
+    padding: 0.1rem 0.3rem;
+}
+.botones_del_header:hover{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border-color: blue;
+}
+
+.footer{
+    background-color: rgb(70, 70, 70);
+    border: 0px;
+}
+.footer a:hover{
+    transition: 0.7s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer img:hover{
+    width: 80px;
+}
+.irarriba{
+    text-align: center;
+    border: springgreen solid 5px;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+    background-color: springgreen;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    border-left: 10px springgreen solid;
+    border-right: 10px springgreen solid;
+}
+.irarriba:hover{
+    background-color: springgreen;
+    border: springgreen solid 5px;
+    color: rgb(0, 0, 0);
+    border-left: 10px springgreen solid;
+    border-right: 10px springgreen solid;
+    border-radius: 20px;
+    transition:0s;
+}
+.copy{
+    color: rgb(168, 168, 168);
+}
+
+.contactame{
+    font-size: 1.1rem;
+    color: white;
+}
+.redessociales{
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 92, 92);
+    border: 5px solid rgb(92, 92, 92);
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    float:left;
+}
+.redessociales:hover{
+    color: white;
+    margin-left: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.lista{
+    /* padding: 10px 0px; */
+    background-color: springgreen;
+    display: table;
+    width: 100%;
+    border-bottom: 2px solid black;
+    /* border: 1px solid blue; */
+    text-align: center;
+    border: 0px;
+    padding-top: 7px;
+
+}
+.lista li{
+    padding: 5px 10px;
+    padding-bottom: 8px;
+    list-style: none;
+    height: 100%;
+    background-color: springgreen;
+    float: left;
+    width: auto;
+    font-size: 1.5rem;
+    margin-left: 5px;
+
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+}
+.lista .videos{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+.lista li:hover{
+    color: white;
+    background-color: rgb(17, 0, 255);
+}
+
+
+/*  */
+.main{
+    display: block;
+    background: white;
+}
+.aside{
+    font-size: 1.1rem;
+    display: block;
+    background: white;
+    width: 15%;
+    float: left;
+    margin-top: 74px;
+}
+.aside li{
+    font-size: 1rem;
+    background: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    display: block;
+    padding: 8px;
+}
+.aside li:hover{
+    background: rgba(221, 221, 221, 0.712);
+}
+.aside img{
+    margin-right: 10px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.seccion{
+    width: 80%;
+    background: white;
+    display: block;
+}
+.nav1{
+    padding: 20px 0px 8px 0px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    width: 85%;
+}
+.buscador{
+    background: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.cuadrodelbuscador{
+    width: 80%;
+    height: 38px;
+    border: 2px solid rgba(51, 51, 51, 0.301);
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.buscar{
+    margin: 0px;
+    padding: 0px;
+    width: 10%;
+    height: 38px;
+    border: 2px solid rgba(0, 0, 0, 0.151);
+    background: rgba(71, 71, 71, 0.055);
+    margin: auto;
+    font-size: 1.4rem;
+}
+.buscar:hover{
+    background-color: rgba(200, 200, 200, 0.534);
+}
+.fotodeperfil{
+    float: right;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    /* border: black 1px solid; */
+    margin: 0px 20px 0 0;
+    padding: 0px;
+}
+.nav2{
+    background: white;
+    display: inline-block;
+    width: 85%;
+    padding: 4px 0px 10px 0px;
+}
+.nav2 li{
+    display: inline-block;
+    font-size: 1.2rem;
+    width: auto;
+    padding: 5px 20px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 50px;
+    margin: 5px 10px;
+    background: rgb(231, 231, 231);
+}
+.nav2 li:hover{
+    background: rgba(151, 151, 151, 0.37);
+}
+.nav2 .linegro{
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 85, 85);
+}
+.nav2 .linegro:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 85, 85);
+}
+.cuerpo{
+    background: white;
+    display: table;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.articulo{
+    background: rgb(248, 248, 248);
+    /* background: rgba(253, 251, 230, 0.774); */
+    /* border: 1px solid rgba(231, 231, 231, 0); */
+    display: inline-block;
+    padding: 21px;
+}
+.articulo:hover{
+    background-color: rgba(228, 228, 228, 0.664);
+}
+.fotodelautor{
+    float: left;
+    border-radius: 50px;
+    background: white;
+    margin-right: 0.5em;
+margin-top: 5px;
+
+}
+.textodelvideo{
+background: rgba(255, 255, 255, 0);
+margin-top: 5px;
+}
+.textodelvideo h2{
+    font-size: 1.2rem;
+}
+.textodelvideo h3{
+    font-size: 0.9rem;
+    font-weight: lighter;
+
+}
